@@ -1312,7 +1312,7 @@ $(function () {
   if (window.location.hostname === "localhost") {
     var gClient = new Client("ws://localhost:8443");
   } else {
-    var gClient = new Client('wss://mppclone.com:8443');
+    var gClient = new Client('wss://smnmpp.hri7566.info:8443');
   }
   if (loginInfo) {
     gClient.setLoginInfo(loginInfo);
